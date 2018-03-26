@@ -131,28 +131,29 @@
         box-shadow: $top $left $blur $color;
     }
 }
+
 @mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
 }
+
 @mixin border-all($width, $style, $color) {
     border-width: $width;
     border-style: $style;
     border-color: $color;
 }
-@mixin link-colors($normal, $hover, $active, $visited, $focus, $visit)
-
 
 @mixin background {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 @mixin overlay() {
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
