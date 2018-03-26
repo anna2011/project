@@ -7,7 +7,7 @@ module.exports = function(grunt) {
                 src: ['js/jquery.min.js', 'bootstrap.min.js'],
                 dest: 'dist/js/library.js'
             },
-            jscutom: {
+            jsCustom: {
                 src: ['js/custom.js'],
                 dest: 'dist/js/custom.js'
             },
